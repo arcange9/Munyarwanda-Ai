@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mbaza-kin-monolingual-v011",
+    "repo": "mbazaNLP/kinyarwanda_monolingual_v01.1",
+    "type": "huggingface",
+    "license": "CC BY 4.0",
+    "access": "gated",
+    "approved_for_pipeline": true,
+    "notes": "Accept the dataset terms first. Keep provenance. Do not redistribute source text unless permitted."
+  },
+  {
+    "id": "digitalumuganda-gazette-en-kin",
+    "repo": "DigitalUmuganda/NMT_Rwandan-Gazette_parallel_data_en_kin",
+    "type": "huggingface",
+    "license": "CC BY 4.0",
+    "access": "public",
+    "approved_for_pipeline": true,
+    "notes": "Parallel data; use Kinyarwanda side primarily for language modeling/instruction preparation after quality review."
+  },
+  {
+    "id": "mbaza-piqa-kin",
+    "repo": "mbazaNLP/PIQA-kin",
+    "type": "huggingface",
+    "license": "REVIEW_DATASET_CARD",
+    "access": "public_or_terms_dependent",
+    "approved_for_pipeline": false,
+    "notes": "Do not ingest until its current dataset card/license is reviewed and recorded."
+  }
+]
