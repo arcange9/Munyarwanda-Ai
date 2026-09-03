@@ -1,34 +1,40 @@
 # Munyarwanda-Ai
 Kinyarwanda-focused AI platform for building accessible, useful, and culturally relevant AI experiences.
-🇷🇼 Munyarwanda AI
 
-«Proprietary Software — All Rights Reserved»
+🇷🇼 **Munyarwanda AI**
 
-Munyarwanda AI is a proprietary artificial intelligence project focused on Kinyarwanda language technology and intelligent AI systems.
+Created and developed by **Mukamyi Izere Arcange**.
 
-⚠️ Copyright & Usage
+## LLM Development Pipeline
 
-© 2026 Mukamyi Izere Arcange. All rights reserved.
+The repository now includes the reproducible **Munyarwanda AI LLM v0.1** training pipeline under [`llm/`](llm/).
 
-This repository and its contents are proprietary.
+The pipeline covers:
 
-No permission is granted to copy, modify, distribute, publish, sublicense, sell, or create derivative works from this project without prior written permission from the copyright holder.
+- approved Kinyarwanda dataset acquisition and provenance
+- dataset validation and quality gates
+- PII/safety review workflow
+- deduplication before splitting
+- tokenizer analysis
+- Kinyarwanda benchmark evaluation
+- candidate base-model comparison
+- QLoRA/LoRA fine-tuning
+- held-out evaluation and error analysis
+- OpenAI-compatible inference API for integration with the web application
 
-Viewing this repository does not grant any license or ownership rights to the source code, models, datasets, documentation, or other project materials.
+### Current model status
 
-For collaboration, licensing, or other authorized use, please contact the project owner.
+The LLM pipeline is ready for execution, but a final trained model is **not claimed yet**. Actual training requires approved data, GPU benchmark measurements, a selected base model, a real QLoRA run, and evaluation.
 
----
+### Recommended execution order
 
-🚀 About
+```text
+DATA → VALIDATE → DEDUP → BENCHMARK → SELECT MODEL → QLoRA PILOT → EVALUATE → TRAIN v0.1 → SERVE → INTEGRATE
+```
 
-Munyarwanda AI is an AI project designed to explore and develop intelligent technology for the Kinyarwanda language.
+See [`llm/README.md`](llm/README.md) for the complete workflow.
 
-🎯 Vision
-
-To contribute to the development of high-quality AI technology capable of understanding and working effectively with Kinyarwanda.
-
-🧠 Areas of Focus
+## Project areas
 
 - 🇷🇼 Kinyarwanda Language AI
 - 🤖 Large Language Models
@@ -38,32 +44,8 @@ To contribute to the development of high-quality AI technology capable of unders
 - 📚 Language Technology
 - ⚙️ AI Engineering
 
-🛠️ Technology
+## Important
 
-- Python
-- AI/ML frameworks
-- LLM APIs and/or models
-- RAG technologies
-- Databases
-- Web technologies
+Do not commit passwords, API keys, restricted datasets, private credentials, or copyrighted source text that you are not permitted to redistribute. Use provenance and license records for every training source.
 
-🔐 Project Status
-
-Proprietary / Closed Source
-
-The source code is not licensed for public reuse.
-
-📌 Disclaimer
-
-This repository may contain project documentation, demonstrations, screenshots, architecture information, or other materials intended to showcase the project.
-
-Some implementation details, datasets, models, APIs, credentials, and internal infrastructure are intentionally excluded.
-
----
-
-👨‍💻 Project
-
-Munyarwanda AI
-Created and developed by Mukamyi Izere Arcange
-
-🇷🇼 Rwanda • Artificial Intelligence • Kinyarwanda Language Technology
+© 2026 Mukamyi Izere Arcange. All rights reserved for the proprietary application code unless a file or dependency states otherwise. Third-party model and dataset terms remain applicable to their respective materials.
