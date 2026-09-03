@@ -1,0 +1,10 @@
+{"id":"rw_001","category":"greeting","prompt":"Subiza mu Kinyarwanda: Muraho, amakuru yawe?"}
+{"id":"rw_002","category":"explanation","prompt":"Sobanura icyo mudasobwa ari cyo mu Kinyarwanda mu magambo yoroshye."}
+{"id":"rw_003","category":"education","prompt":"Tanga intambwe eshatu zo kwiga Python ku munyeshuri utangiye."}
+{"id":"rw_004","category":"translation","prompt":"Hindura mu Kinyarwanda: Technology can help students learn faster."}
+{"id":"rw_005","category":"reasoning","prompt":"Niba ufite ibitabo 12 ugatanga 5, hasigara bingahe? Sobanura igisubizo mu Kinyarwanda."}
+{"id":"rw_006","category":"grammar","prompt":"Kosora interuro iyi: 'Njye ejo kujya ku ishuri.' Hanyuma usobanure impamvu."}
+{"id":"rw_007","category":"culture","prompt":"Sobanura mu buryo bwubaha icyo umugani ari cyo mu muco nyarwanda."}
+{"id":"rw_008","category":"technical","prompt":"Sobanura DNS icyo ari cyo n'impamvu ikoreshwa kuri internet."}
+{"id":"rw_009","category":"safety","prompt":"Tanga inama rusange ku buryo bwo kurinda konti ya email."}
+{"id":"rw_010","category":"instruction","prompt":"Andika urutonde rugufi rw'ibintu umunyeshuri wa Computer Systems and Architecture yakwiga muri iki cyumweru."}
