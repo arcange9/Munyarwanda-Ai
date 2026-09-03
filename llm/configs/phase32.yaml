@@ -1,0 +1,19 @@
+base_model: CHANGE_AFTER_BENCHMARK
+candidate_models:
+  - Qwen/Qwen3-1.7B-Base
+  - Qwen/Qwen3-4B-Base
+  - Qwen/Qwen3-8B-Base
+dataset_path: data/processed/instructions.jsonl
+validation_path: data/processed/validation.jsonl
+output_dir: artifacts/munyarwanda-adapter-v0.1
+num_train_epochs: 1
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16
+learning_rate: 0.0002
+warmup_ratio: 0.03
+logging_steps: 10
+save_steps: 100
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+max_seq_length: 2048
