@@ -2,28 +2,199 @@
   {
     "id": "mbaza-kin-monolingual-v011",
     "repo": "mbazaNLP/kinyarwanda_monolingual_v01.1",
+    "url": "https://huggingface.co/datasets/mbazaNLP/kinyarwanda_monolingual_v01.1",
     "type": "huggingface",
     "license": "CC BY 4.0",
     "access": "gated",
     "approved_for_pipeline": true,
-    "notes": "Accept the dataset terms first. Keep provenance. Do not redistribute source text unless permitted."
+    "role": "primary_monolingual",
+    "notes": "Accept current dataset terms first. Preserve provenance and original-author rights."
   },
   {
     "id": "digitalumuganda-gazette-en-kin",
     "repo": "DigitalUmuganda/NMT_Rwandan-Gazette_parallel_data_en_kin",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/NMT_Rwandan-Gazette_parallel_data_en_kin",
     "type": "huggingface",
     "license": "CC BY 4.0",
     "access": "public",
     "approved_for_pipeline": true,
-    "notes": "Parallel data; use Kinyarwanda side primarily for language modeling/instruction preparation after quality review."
+    "role": "government_parallel",
+    "notes": "Use the Kinyarwanda side after quality/provenance review; useful for formal Rwandan language and translation-derived instruction data."
+  },
+  {
+    "id": "mbaza-kin-en-parallel",
+    "repo": "mbazaNLP/Kinyarwanda_English_parallel_dataset",
+    "url": "https://huggingface.co/datasets/mbazaNLP/Kinyarwanda_English_parallel_dataset",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "parallel",
+    "notes": "Candidate. Review current license, provenance and duplication before ingestion."
+  },
+  {
+    "id": "mbaza-kin-language-model-dataset",
+    "repo": "mbazaNLP/kinyarwanda-language-model-dataset",
+    "url": "https://huggingface.co/datasets/mbazaNLP/kinyarwanda-language-model-dataset",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "language_model_candidate",
+    "notes": "Candidate resource; inspect current card and provenance before training."
+  },
+  {
+    "id": "digitalumuganda-health-parallel",
+    "repo": "DigitalUmuganda/NMT_Health_parallel_data_en_kin",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/NMT_Health_parallel_data_en_kin",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "health_parallel",
+    "notes": "Candidate only. Health data requires provenance and quality review before training use."
+  },
+  {
+    "id": "digitalumuganda-monolingual-health",
+    "repo": "DigitalUmuganda/Monolingual_health_dataset",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/Monolingual_health_dataset",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "health_monolingual",
+    "notes": "Candidate only. Review licensing, provenance, medical quality and safety before use."
+  },
+  {
+    "id": "digitalumuganda-kin-en-mt",
+    "repo": "DigitalUmuganda/kinyarwanda-english-machine-translation-dataset",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/kinyarwanda-english-machine-translation-dataset",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "parallel",
+    "notes": "Candidate for translation and code-switching examples after license and quality review."
+  },
+  {
+    "id": "digitalumuganda-monolingual-mt",
+    "repo": "DigitalUmuganda/monolingual_machine_translation_data",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/monolingual_machine_translation_data",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "monolingual_candidate",
+    "notes": "Candidate. Inspect language distribution, provenance and duplication before ingestion."
   },
   {
     "id": "mbaza-piqa-kin",
     "repo": "mbazaNLP/PIQA-kin",
+    "url": "https://huggingface.co/datasets/mbazaNLP/PIQA-kin",
     "type": "huggingface",
-    "license": "REVIEW_DATASET_CARD",
+    "license": "REVIEW_CURRENT_CARD",
     "access": "public_or_terms_dependent",
     "approved_for_pipeline": false,
-    "notes": "Do not ingest until its current dataset card/license is reviewed and recorded."
+    "role": "reasoning_eval_candidate",
+    "notes": "Keep primarily for evaluation unless licensing and transformation rights permit training."
+  },
+  {
+    "id": "mbaza-tourism-en-kin",
+    "repo": "mbazaNLP/NMT_Tourism_parallel_data_en_kin",
+    "url": "https://huggingface.co/datasets/mbazaNLP/NMT_Tourism_parallel_data_en_kin",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "tourism_parallel",
+    "notes": "Candidate. Review current card and provenance before use."
+  },
+  {
+    "id": "mbaza-education-en-kin",
+    "repo": "mbazaNLP/NMT_Education_parallel_data_en_kin",
+    "url": "https://huggingface.co/datasets/mbazaNLP/NMT_Education_parallel_data_en_kin",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "education_parallel",
+    "notes": "Candidate. Review current card, provenance and educational quality before use."
+  },
+  {
+    "id": "digitalumuganda-common-voice-rw-text",
+    "repo": "DigitalUmuganda/common-voice-kinyarwanda-text-dataset",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/common-voice-kinyarwanda-text-dataset",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "speech_transcript_text",
+    "notes": "Useful for language normalization/ASR-related work; do not assume it is ideal text-only pretraining data without review."
+  },
+  {
+    "id": "common-voice-rw-26",
+    "repo": "Mozilla Common Voice Scripted Speech 26.0 - Kinyarwanda",
+    "url": "https://mozilladatacollective.com/datasets/cmqim2p6e00tgnq07bvf3z1ws",
+    "type": "external_dataset",
+    "license": "CC0-1.0",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "asr_speech",
+    "notes": "Use for ASR/voice components, not as a direct text-LM corpus. Follow the current dataset terms and do not re-host the audio."
+  },
+  {
+    "id": "professor-kinyarwanda-speech-data",
+    "repo": "Professor/kinyarwanda-speech-data",
+    "url": "https://huggingface.co/datasets/Professor/kinyarwanda-speech-data",
+    "type": "huggingface",
+    "license": "CC BY 4.0",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "asr_tts",
+    "notes": "Candidate for voice/ASR/TTS only. Respect constituent-source licenses and attribution."
+  },
+  {
+    "id": "kinyalm-data-lake",
+    "repo": "kinyalm/kinyalm-data-lake",
+    "url": "https://huggingface.co/datasets/kinyalm/kinyalm-data-lake",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "discovery_candidate",
+    "notes": "Potential source pool; must be audited for provenance, licenses, duplication and quality before training."
+  },
+  {
+    "id": "kinycomet-dataset",
+    "repo": "chrismazii/kinycomet_dataset",
+    "url": "https://huggingface.co/datasets/chrismazii/kinycomet_dataset",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "evaluation_candidate",
+    "notes": "Keep as an evaluation/quality resource until its current license and intended use are verified."
+  },
+  {
+    "id": "kinya-ag-retrieval",
+    "repo": "C4IR-RW/kinya-ag-retrieval",
+    "url": "https://huggingface.co/datasets/C4IR-RW/kinya-ag-retrieval",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "retrieval_candidate",
+    "notes": "Candidate for retrieval/evaluation rather than automatic LM pretraining."
+  },
+  {
+    "id": "kinya-ag-tts",
+    "repo": "C4IR-RW/kinya-ag-tts",
+    "url": "https://huggingface.co/datasets/C4IR-RW/kinya-ag-tts",
+    "type": "huggingface",
+    "license": "REVIEW_CURRENT_CARD",
+    "access": "public",
+    "approved_for_pipeline": false,
+    "role": "tts",
+    "notes": "Voice/tts candidate, not a direct text-only LLM corpus."
   }
 ]
